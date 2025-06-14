@@ -150,10 +150,32 @@ h2.flicker {
   text-transform: uppercase;
 }
 
-.how {
+.how1 {
+  color: black;
   padding: 1em 1em 3em 1em;
   box-sizing: border-box;
-  background: url(images/weird.webp) center center no-repeat;
+  background: url(images/weird1.png) center center no-repeat;
+  background-size: cover;  border-radius: 10px;
+}
+.how2 {
+  color: black;
+  padding: 1em 1em 3em 1em;
+  box-sizing: border-box;
+  background: url(images/weird2.png) center center no-repeat;
+  background-size: cover;  border-radius: 10px;
+}
+.how3 {
+  color: black;
+  padding: 1em 1em 3em 1em;
+  box-sizing: border-box;
+  background: url(images/weird3.png) center center no-repeat;
+  background-size: cover;  border-radius: 10px;
+}
+.how4 {
+  color: black;
+  padding: 1em 1em 3em 1em;
+  box-sizing: border-box;
+  background: url(images/weird4.png) center center no-repeat;
   background-size: cover;  border-radius: 10px;
 }
 
