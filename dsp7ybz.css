@@ -1,0 +1,47 @@
+﻿/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * am-augusta:
+ *   - http://typekit.com/eulas/000000000000000077572fc9
+ * circus-mn:
+ *   - http://typekit.com/eulas/00000000000000007755955b
+ * pt-mono:
+ *   - http://typekit.com/eulas/00000000000000007735a11b
+ *   - http://typekit.com/eulas/00000000000000007735a125
+ *
+ * © 2009-2025 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2024-09-30 18:04:45 UTC"}*/
+
+@import url("p-1.css");
+
+@font-face {
+font-family:"pt-mono";
+src:url("af/7d382a/00000000000000007735a11b/30/l") format("woff2"),url("af/7d382a/00000000000000007735a11b/30/d") format("woff"),url("af/7d382a/00000000000000007735a11b/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"pt-mono";
+src:url("af/275cbc/00000000000000007735a125/30/l") format("woff2"),url("af/275cbc/00000000000000007735a125/30/d") format("woff"),url("af/275cbc/00000000000000007735a125/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"circus-mn";
+src:url("af/d50dc0/00000000000000007755955b/30/l") format("woff2"),url("af/d50dc0/00000000000000007755955b/30/d") format("woff"),url("af/d50dc0/00000000000000007755955b/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"am-augusta";
+src:url("af/d900c7/000000000000000077572fc9/30/l") format("woff2"),url("af/d900c7/000000000000000077572fc9/30/d") format("woff"),url("af/d900c7/000000000000000077572fc9/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+.tk-pt-mono { font-family: "pt-mono",monospace; }
+.tk-circus-mn { font-family: "circus-mn",sans-serif; }
+.tk-am-augusta { font-family: "am-augusta",sans-serif; }
