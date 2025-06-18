@@ -403,17 +403,18 @@ h4 {
   overflow: visible;
   padding-top: 10px;
 }
+@media screen and (min-width: 220px) {
+  .clownscroll img {
+    transform: rotate(-9deg);
+    width: 15%;
+  }
 
-.clownscroll img {
-  transform: rotate(-9deg);
-  width: 15%;
-}
+  .clownscroll2 img {
+    transform: rotate(9deg);
 
-.clownscroll2 img {
-  transform: rotate(9deg);
-
-  transform-origin: center;
-  width: 30%;
+    transform-origin: center;
+    width: 30%;
+  }
 }
 
 .startagain {
@@ -1467,5 +1468,19 @@ h4 {
   } */
   100% {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clownscroll img {
+    transform: rotate(-9deg);
+    width: 15%;
+  }
+
+  .clownscroll2 img {
+    transform: rotate(9deg);
+
+    transform-origin: center;
+    width: 30%;
   }
 }
