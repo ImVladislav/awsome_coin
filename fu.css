@@ -148,13 +148,14 @@ h2.flicker {
   text-transform: uppercase;
 }
 
-.how1 {
+/* .how1 {
   color: black;
-  padding: 1em 1em 3em 1em;
+  padding: 1em 1em 1em 1em;
   box-sizing: border-box;
   background: url(images/weird1.png) center center no-repeat;
   background-size: cover;
   border-radius: 10px;
+  width: 100%;
 }
 .how1 span {
   color: white;
@@ -168,7 +169,7 @@ h2.flicker {
 }
 .how2 {
   color: black;
-  padding: 1em 1em 3em 1em;
+  padding: 1em 1em 1em 1em;
   box-sizing: border-box;
   background: url(images/weird2.png) center center no-repeat;
   background-size: cover;
@@ -186,7 +187,7 @@ h2.flicker {
 }
 .how3 {
   color: black;
-  padding: 1em 1em 3em 1em;
+  padding: 1em 1em 1em 1em;
   box-sizing: border-box;
   background: url(images/weird3.png) center center no-repeat;
   background-size: cover;
@@ -204,7 +205,7 @@ h2.flicker {
 }
 .how4 {
   color: black;
-  padding: 1em 1em 3em 1em;
+  padding: 1em 1em 1em 1em;
   box-sizing: border-box;
   background: url(images/weird5.png) center center no-repeat;
   background-size: cover;
@@ -223,6 +224,69 @@ h2.flicker {
 
 .how span {
   background: rgba(0, 0, 0, 0.8);
+} */
+
+.how {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  height: clamp(200px, 30vw, 320px);
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Стиснення висоти на вузьких екранах */
+@media (max-width: 768px) {
+  .how {
+    aspect-ratio: unset;
+    height: clamp(220px, 45vw, 300px); /* адаптивна висота */
+    padding: 0.7em;
+    margin-top: 0.5em;
+  }
+
+  .how span {
+    font-size: 0.85em;
+  }
+
+  .how .number {
+    font-size: 1.4em;
+  }
+}
+
+/* Різні фони */
+.how1 {
+  background-image: url(images/weird1.png);
+}
+.how2 {
+  background-image: url(images/weird2.png);
+}
+.how3 {
+  background-image: url(images/weird3.png);
+}
+.how4 {
+  background-image: url(images/weird5.png);
+}
+
+.how span {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  font-weight: bold;
+  font-size: large;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* background: rgba(0, 0, 0, 0.8); */
+  text-align: center;
 }
 
 .number {
