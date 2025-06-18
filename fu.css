@@ -107,6 +107,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   letter-spacing: -3px;
+  font-size: 4em;
   animation: flicker 3s linear infinite;
 }
 
@@ -114,7 +115,7 @@ h2.flicker {
   margin: 0;
   color: #ffff7b;
   text-shadow: 4px 3px 0 #00fff2;
-  font-size: 2.7em;
+  font-size: 4em;
   animation: flicker 3s linear infinite;
 }
 
